@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postland.Domain", "Postland.Domain\Postland.Domain.csproj", "{3EAA476B-6154-4B3F-AC7E-E86F355E4673}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Postland.Domain", "Postland.Domain\Postland.Domain.csproj", "{3EAA476B-6154-4B3F-AC7E-E86F355E4673}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4DE89A79-BABF-43D0-8A8E-85941FE62B8E}"
 EndProject
@@ -17,7 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{3CD8C904-B9BF-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{20E25373-345B-459C-9D1C-ACA1362D870C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostLand.Application", "PostLand.Application\PostLand.Application.csproj", "{11F040CB-5ACD-4C86-8349-5665798F23C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostLand.Application", "PostLand.Application\PostLand.Application.csproj", "{11F040CB-5ACD-4C86-8349-5665798F23C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postland.Persistencee", "Postland.Persistencee\Postland.Persistencee.csproj", "{287563B6-9F47-421A-844C-1C6852D1EDE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postland.API", "Postland.API\Postland.API.csproj", "{077C2691-1C05-4046-B919-10662E8CCCBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{11F040CB-5ACD-4C86-8349-5665798F23C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11F040CB-5ACD-4C86-8349-5665798F23C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11F040CB-5ACD-4C86-8349-5665798F23C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287563B6-9F47-421A-844C-1C6852D1EDE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287563B6-9F47-421A-844C-1C6852D1EDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287563B6-9F47-421A-844C-1C6852D1EDE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287563B6-9F47-421A-844C-1C6852D1EDE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077C2691-1C05-4046-B919-10662E8CCCBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077C2691-1C05-4046-B919-10662E8CCCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077C2691-1C05-4046-B919-10662E8CCCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077C2691-1C05-4046-B919-10662E8CCCBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +56,8 @@ Global
 		{3CD8C904-B9BF-4D9D-BBE3-A618154DEA1C} = {4DE89A79-BABF-43D0-8A8E-85941FE62B8E}
 		{20E25373-345B-459C-9D1C-ACA1362D870C} = {4DE89A79-BABF-43D0-8A8E-85941FE62B8E}
 		{11F040CB-5ACD-4C86-8349-5665798F23C0} = {B5ED2962-0DAD-46B1-B6D6-F899EF8ACB02}
+		{287563B6-9F47-421A-844C-1C6852D1EDE9} = {84EDBF7B-847E-47E4-91A3-026CFEB3C617}
+		{077C2691-1C05-4046-B919-10662E8CCCBE} = {20E25373-345B-459C-9D1C-ACA1362D870C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3D89D18F-9DC5-40C0-980B-8C96E57EF43E}
